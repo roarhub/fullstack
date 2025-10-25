@@ -9,7 +9,7 @@ const isStudent = document.getElementById("isStudent");
 
 async function getProfile() {
   try {
-    const fetchProfile = await fetch('http://localhost:3000/api/profile');
+    const fetchProfile = await fetch('https://fullstack-nkgi.onrender.com/api/profile');
     const profile = await fetchProfile.json();
     console.log("profile is: ", profile);
 
@@ -28,7 +28,7 @@ async function getProfile() {
 getProfile();
 
 async function registerUser() {
-  const reg = await fetch("http://localhost:3000/api/profile", {
+  const reg = await fetch("https://fullstack-nkgi.onrender.com/api/profile", {
     method: "post",
     body: JSON.stringify({ code: "123" }),
     headers: {
