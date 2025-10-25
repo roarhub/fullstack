@@ -1,6 +1,6 @@
 # DEPLOYMENT
 
-- render, railway, replit, heroku, netlify
+- render, railway, replit, heroku, netlify, hostinger
 ### Make sure to change the endpoint after deployment
 
 ## Frameworks to consider
